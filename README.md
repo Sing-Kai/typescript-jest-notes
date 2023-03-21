@@ -26,6 +26,13 @@ Update package.json using below
   },
 ```
 
+in tsconfig.json add:
+
+```
+  "exclude": ["node_modules"],
+  "include": ["./src/**/*.ts"]
+```  
+
 Build ts files using the command 
 
 `npm run build`
